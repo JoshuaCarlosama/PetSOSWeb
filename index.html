@@ -38,6 +38,8 @@
 
     <link href="https://cdn.boxicons.com/animations.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 
@@ -112,50 +114,163 @@
         </section>   
     <!-- End - Section About -->
 
+    <!-- Start - Section Products -->
         <section class="products">
         <h2 class="products__title">Servicios</h2>
         <article class="container">
-            <h4 class="products__text">Ofrecemos soluciones inteligentes para la movilidad eléctrica del futuro.</h4>
+            <h4 class="products__text">Ofrecemos seguridad a sus hermosas mascotas en todo momento.</h4>
             <div class="products__container">
                 <div class="product">
-                    <img src="./src/images/Busqueda.jpg" alt="servicio_uno" loading="lazy">
+                    <img src="./src/images/IconoService1.png" alt="servicio_uno" loading="lazy">
                     <p class="service__title">Localiza y encuentra a tu mascota con collar inteligente.</p>
                     <a href="#" class="button hero__button">Más información</a>
                 </div>
                 <div class="product">
-                    <img src="./src/images/Localizacion.png" alt="servicio_uno" loading="lazy">
+                    <img src="./src/images/Localizacion.png" alt="servicio_dos" loading="lazy">
                     <p class="service__title">Revisa la posición de tu mascota en tiempo real.</p>
                     <a href="#" class="button hero__button">Más información</a>
                 </div>
                 <div class="product">
-                    <img src="./src/images/Comunidad.jpeg" alt="servicio_uno" loading="lazy">
+                    <img src="./src/images/IconoService2.png" alt="servicio_tres" loading="lazy">
                     <p class="service__title">Crea una comunidad de dueños de mascotas.</p>
                     <a href="#" class="button hero__button">Más información</a>
                 </div>
             </div>
         </article>
-
     </section>
-    <!-- Start - Section Services -->
-    <!-- End - Section Services -->
-
-
+    <!-- End - Section Products -->
 
     <!-- Start - Section App -->
+    <section class="app">
+    <div class="container app__container">
+
+        <div class="mobile__img">
+            <img src="./src/images/AppPetSOS.png" alt="App PetSOS" loading="lazy">
+        </div>
+
+        <div class="mobile">
+            <h2 class="mobile__title">Descarga la App PetSOS</h2>
+
+            <p class="mobile__description">
+                Encuentra mascotas perdidas, recibe alertas en tiempo real y conecta con tu comunidad.
+                Todo desde tu celular, rápido y fácil.
+            </p>
+
+            <div class="mobile__buttons">
+                <img src="./src/images/playstore.png" alt="App Store" loading="lazy">
+                <img src="./src/images/googleplay.png" alt="Google Play" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
     <!-- End - Section App -->
 
-
-
     <!-- Start - Section Gallery -->
+<section class="gallery">
+    <div class="container">
+        <h3 class="gallery__title">Galería</h3>
+        <p class="gallery__description">
+            Explora cómo ayudamos a encontrar y cuidar mascotas en nuestra comunidad.
+        </p>
+
+        <div class="gallery__grid">
+
+            <div class="gallery__item">
+                <img src="./src/images/Busqueda.jpg" alt="Mascota encontrada" loading="lazy">
+                <div class="gallery__overlay">
+                    <h4>Mascotas</h4>
+                    <p>Encuentra mascotas perdidas cerca de ti.</p>
+                </div>
+            </div>
+
+            <div class="gallery__item">
+                <img src="./src/images/Mapa.jpg" alt="Mapa" loading="lazy">
+                <div class="gallery__overlay">
+                    <h4>Mapa</h4>
+                    <p>Ubica reportes en tiempo real.</p>
+                </div>
+            </div>
+
+            <div class="gallery__item">
+                <img src="./src/images/Alarma.webp" alt="Alertas" loading="lazy">
+                <div class="gallery__overlay">
+                    <h4>Alertas</h4>
+                    <p>Recibe notificaciones importantes.</p>
+                </div>
+            </div>
+
+            <div class="gallery__item">
+                <img src="./src/images/Comunidad.jpeg" alt="Comunidad" loading="lazy">
+                <div class="gallery__overlay">
+                    <h4>Comunidad</h4>
+                    <p>Conecta con otros amantes de animales.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
     <!-- End - Section Gallery -->
 
-
-
     <!-- Start - Section Contact -->
+    <section class="container contact">
+        <div class="contact__form">
+            <h2 class="contact__title">¿Tienes preguntas? Escríbenos</h2>
+            <form>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="correo" placeholder="Correo" required>
+                <input type="tel" name="celular" placeholder="Celular" required>
+                <textarea name="observaciones" placeholder="Observaciones" rows="4"></textarea>
+                <label class="checkbox__label">
+                    <input type="checkbox" required>
+                    Términos y condiciones
+                </label>
+                <button type="submit" class="btn button">Enviar</button>
+            </form>
+        </div>
+
+        <div class="contact__map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7914484515727!2d-78.4919116242656!3d-0.2102860353982151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a107e1cd44b%3A0x88a284f66939ed4!2sESCUELA%20POLIT%C3%89CNICA%20NACIONAL!5e0!3m2!1ses-419!2sec!4v1748692694233!5m2!1ses-419!2sec"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
     <!-- End - Section Contact -->
 
 
     <!-- Start - Section Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__social">
+                <h3>Síguenos en redes</h3>
+                <div class="social__icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__links">
+                <h3>Enlaces de interés</h3>
+                <div class="links">
+                    <a href="#">Soporte técnico</a>
+                    <a href="#">Blog de noticias</a>
+                    <a href="#">Preguntas frecuentes (FAQ)</a>
+                </div>
+            </div>
+
+            <div class="footer__contact">
+                <h3>Llámamos</h3>
+                <p class="call">(593) 987936117</p>
+                <h3>Escríbenos</h3>
+                <p class="write">petSOS@gmail.com</p>
+            </div>
+        </div>
+
+        <hr/>
+        <p class="footer__copy">© Derechos Reservados - PetSOS Group</p>
+    </footer>
     <!-- End - Section Footer -->
 
 </body>
